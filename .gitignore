@@ -1,0 +1,10 @@
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+crash.log
+crash.*.log
+
+# Garder le lock file (bonne pratique, versionné normalement)
+!.terraform.lock.hcl
